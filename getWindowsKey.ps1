@@ -52,8 +52,11 @@ if ($productKey) {
     $userInput = Read-Host
 
     if ($userInput -eq "Y" -or $userInput -eq "y") {
-        # Specify the file path
-        $filePath = "$env:USERPROFILE\Desktop\WindowsProductKey.txt"
+        # Get the current directory where the script is located
+        $currentDirectory = Split-Path -Parent $MyInvocation.MyCommand.Definition
+
+        # Specify the file path in the current directory
+        $filePath = Join-Path -Path $currentDirectory -ChildPath "WindowsProductKey.txt"
 
         try {
             # Save the product key to the text file
