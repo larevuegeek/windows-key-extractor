@@ -19,7 +19,7 @@ To get the script, follow these steps:
 2. Select **Download ZIP** and extract it to your desired location.
    - Alternatively, clone the repository using:
      ```bash
-     git clone https://github.com/your-username/getWindowsKey.git
+     git clone https://github.com/larevuegeek/windows-key-extractor.git
      ```
 
 ### 2. Open PowerShell
