@@ -1,4 +1,4 @@
-# GetWindowsKey.ps1
+# Windows Key Extractor
 
 A simple PowerShell script to retrieve your Windows 11 product key. This script makes it easy to fetch and back up your activation key for reinstallation, migration, or safe keeping.
 
